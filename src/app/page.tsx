@@ -169,9 +169,14 @@ export default function HomePage() {
 
       <footer className="border-t-[3px] mt-auto">
         <div className="container max-w-4xl mx-auto px-4 h-12 flex items-center justify-center">
-          <p className="text-[10px] text-muted-foreground tracking-wider uppercase">
-            All processing happens locally in your browser
-          </p>
+          <a
+            href="https://bikin.site"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[10px] text-muted-foreground tracking-wider uppercase hover:text-foreground transition-colors"
+          >
+            Made by bikin.site
+          </a>
         </div>
       </footer>
     </div>
