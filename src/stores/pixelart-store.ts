@@ -35,7 +35,7 @@ interface PixelArtStore {
 }
 
 const defaultSettings: PixelArtSettings = {
-  resolution: 64,
+  resolution: 128,
   colorCount: 32,
   dithering: 'none',
 };
